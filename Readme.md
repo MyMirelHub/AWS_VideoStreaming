@@ -23,7 +23,13 @@ Summary of steps taken
   - Default settings
 - transcodeoutpoutmirel 
   - Give this a public permission
-  
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/screenshot-s3.console.aws.amazon.com-2019.04.03-21-07-41.png?raw=true "Logo Title Text 2"
+
+
 https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/screenshot-s3.console.aws.amazon.com-2019.04.03-21-07-41.png?raw=true
 
 Paste permission file in the bucket policy editor. 
