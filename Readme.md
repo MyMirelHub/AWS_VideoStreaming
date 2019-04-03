@@ -32,11 +32,6 @@ Elastic transcoding service in the cloud. Highlt scalable, and allows business t
 - transcodeoutpoutmirel 
   - Give this a public permission
 
-![alt text][logo]
-
-[logo]: https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/screenshot-s3.console.aws.amazon.com-2019.04.03-21-07-41.png?raw=true "Logo Title Text 2"
-
-
 Paste permission file in the bucket policy editor. 
 
 ```json
