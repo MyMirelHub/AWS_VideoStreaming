@@ -15,6 +15,14 @@ Summary of steps taken
 4. Configure a cloud front distribution for low latency streaming through amazons (CDN
 5. Configure an SNS email notification on successful completion or failure of the job
 
+## Overview of services used. 
+
+### Lambda
+AWS Lambda us compute service. Allow code to be run without proovsioning or managing servers(Serverless) and scales autmatically and allows developers to only focus on the application. 
+
+### Transcoder 
+Elastic transcoding service in the cloud. Highlt scalable, and allows business to convert media files into suitable versions for their audience. 
+
 ## Creating S3 input and output buckets
 
  Create two s3 Buckets named
@@ -159,9 +167,40 @@ Origin name, output bucket thats what we are taking info from.
 
 - Restrict bucket access - yes.  The S3 bucket is adding an ACL to restrict access to the cloudfront url. 
 
-  - For this lab it was no
-
+When the bucket is done we can replace the the domain name of the bucket with  the domain name of cloudfront. 
   
+#### Sample Outputs 
+
+```json
+{
+  "state" : "COMPLETED",
+  "version" : "2012-09-25",
+  "jobId" : "1554317590337-qbqswn",
+  "pipelineId" : "1554190625819-opoph3",
+  "input" : {
+    "key" : "monkey.mp4",
+    "frameRate" : "auto",
+    "resolution" : "auto",
+    "aspectRatio" : "auto",
+    "interlaced" : "auto",
+    "container" : "auto"
+  },
+  "inputCount" : 1,
+  "outputKeyPrefix" : "monkey/",
+  "outputs" : [ {
+    "id" : "1",
+    "presetId" : "1351620000001-100200",
+    "key" : "monkey.gif",
+    "thumbnailPattern" : "thumbs-monkey-{count}",
+    "status" : "Complete",
+    "duration" : 59,
+    "width" : 640,
+    "height" : 360
+  } ]
+}
+```
+
+http://d1gtsvass739xv.cloudfront.net/SampleVideo_1280x720_2mb/SampleVideo_1280x720_2mb.gif
 
 #### Credits
 
