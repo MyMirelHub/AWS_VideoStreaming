@@ -23,6 +23,8 @@ Summary of steps taken
   - Default settings
 - transcodeoutpoutmirel 
   - Give this a public permission
+  
+https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/screenshot-s3.console.aws.amazon.com-2019.04.03-21-07-41.png?raw=true
 
 Paste permission file in the bucket policy editor. 
 
@@ -65,7 +67,7 @@ Elastic Transcoder has three components:
 
 The following transcode configuration was selected. 
 
-IMAGE
+https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/screenshot-eu-west-1.console.aws.amazon.com-2019.04.03-21-10-01.png?raw=true
 
 In this process only the pipeline is created, as the job and the pre-set is specified in the lambda. 
 
@@ -75,6 +77,7 @@ Specify output bucket. Storage class is this one is set to reduced redundancy, a
 
  Image applies the same, but considering the tiny amount of space it doesn't matter. 
 
+https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/screenshot-eu-west-1.console.aws.amazon.com-2019.04.03-21-10-31.png?raw=true
 
 
 ## Lambda 
