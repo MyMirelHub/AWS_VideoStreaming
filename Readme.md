@@ -2,8 +2,7 @@
 
 In this project we will configure the AWS account to accept video files via an S3 bucket, and convert them to gifs or use them for streaming. 
 
-https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/Elastic%20Transcode.png
-
+https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/Elastic%20Transcode.png?raw=true
 
 ## Process 
 
