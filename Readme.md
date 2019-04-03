@@ -2,10 +2,9 @@
 
 In this project we will configure the AWS account to accept video files via an S3 bucket, and convert them to gifs or use them for streaming. 
 
-Reference-style: 
-![alt text][logo]
+Inline-style: 
+![alt text](https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/Elastic%20Transcode.png?raw=true "Logo Title Text 1")
 
-[logo]: https://github.com/MyMirelHub/AWS_VideoStreaming/blob/master/images/Elastic%20Transcode.png?raw=true "Logo Title Text 2"
 ## Process 
 
 Summary of steps taken 
