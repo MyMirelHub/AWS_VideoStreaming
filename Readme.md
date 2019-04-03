@@ -1,4 +1,4 @@
-#  Using an AWS elastic transcoder for image streaming. 
+#  Using an AWS elastic transcoder for video streaming. 
 
 In this project we will configure the AWS account to accept video files via an S3 bucket, and convert them to gifs or use them for streaming. 
 
